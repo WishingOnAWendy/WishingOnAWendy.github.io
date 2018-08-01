@@ -1,0 +1,71 @@
+<html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <title> I'M HUNGRY </title>
+  <link rel="stylesheet" href="formStyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+<body id= "grid">
+  <div id="title-info">
+      <h1 id="title">Where Should I Eat Today?</h1>
+      <p id="description"> A simple app that picks where you should eat based on your current cravings </p>
+  </div>
+  <div id="form-holder">
+    <form id="survey-form" method="POST">
+      <div class="input-form-grid">
+        <label id="name-label" class="label-style"> Name: </label>
+        <input class="input-form-style" id="name" type="text" name="name" placeholder="  e.g. John Smith" required>
+      </div>
+      <div class="input-form-grid">
+        <label id="email-label" class="label-style"> E-mail: </label>
+        <input class= "input-form-style" id="email" type="email" placeholder="  e.g. username@email.com" required>
+      </div>
+      <div class="input-form-grid">
+        <label id="number-label" class="label-style"> How much do you want to spend?: $ </label>
+        <input class="input-form-style" id="number" type="number" min="0" max="100" placeholder="  e.g. 10" >
+      </div>
+      <div class="input-form-grid">
+        <label id="dropdown-label" class="label-style"> What kind of food are you feeling?</label>
+        <select class=input-form-style id="dropdown">
+          <option value="asian">Asian</option>
+          <option value="seafood">Seafood</option>
+          <option value="american">American</option>
+          <option value="mexican">Mexican</option>
+          <option value="italian">Italian</option>
+          <option value="barbecue">Barbecue</option>
+          <option value="indian">Indian</option>
+          <option value="idk">I don't know</option>
+        </select>
+      </div>
+      <div class="radio-form-grid">
+        <label id="food-type-label" class="label-style"> What flavor are you craving? </label>
+        <div class="radio-button-holder">
+          <input type="radio" name="taste">Savory
+          <input type="radio" name="taste">Sweet
+          <input type="radio" name="taste">Salty
+        </div>
+      </div>
+      <div class="checkbox-form-grid">
+        <label id="texture-label" class="label-style"> What textures do you want? </label>
+        <div class="checkbox-holder">
+          <input type="checkbox" name="texture1" value="Crunchy"> Crunchy
+          <input type="checkbox" name="texture2" value="Soft"> Soft
+          <input type="checkbox" name="texture3" value="Chewy"> Chewy
+          <input type="checkbox" name="texture4" value="Creamy"> Creamy
+          <input type="checkbox" name="texture5" value="Greasy"> Greasy
+          <input type="checkbox" name="texture6" value="Gooey"> Gooey
+        </div>
+      </div>
+      <br>
+      <lavel id="input-label" class="label-style"> Help Us! </label>
+        <br>
+      <textarea rows="4" cols="50" class="textarea-style">What do you think if anything we could add to this questionnaire to make it better?
+      </textarea>
+      <br>
+      <input type="submit" class="submit-style" value="Find Me Food!">
+    </form>
+  </div>
+</body>
+</html>

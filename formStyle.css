@@ -1,0 +1,110 @@
+#title-info{
+  grid-area: 1/2/2/3;
+}
+#title{
+text-align: center;
+color: white;
+font-size: 40px;
+margin: auto;
+font-family: "fredoka one";
+position: relative;
+bottom: -140px;
+}
+#description{
+  text-align: center;
+  margin: auto;
+  color: rgba(240, 240, 240, .9);
+  font-size: 18px;
+  position: relative;
+  top: 140px;
+
+  font-family: oswald;
+}
+#form-holder{
+  background-color: white;
+  grid-area: 2/2/4/3;
+  border-radius: 40px;
+  box-shadow: 6px 6px rgba(0, 0, 0, .4);
+  text-align: center;
+  height: 530px;
+}
+#survey-form{
+  display: inline-block;
+  width: 600px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  font-family: "work sans";
+  font-size: 20px;
+}
+.input-form-style{
+  border: 2px solid gray;
+  position: relative;
+  left: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  align-self: center;
+  padding-right: 5px;
+}
+
+.label-style{
+text-align: right;
+}
+.input-form-grid{
+  display: grid;
+  grid-template-columns: 200px 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  left: 40px;
+}
+.radio-form-grid{
+  display: grid;
+  grid-template-columns: 200px 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  left: 40px;
+}
+.radio-button-holder{
+  position: relative;
+  align-self: center;
+  right: 15px;
+}
+.checkbox-form-grid{
+  display: grid;
+  grid-template-columns: 200px 305px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  left: 40px;
+  text-align: left;
+}
+.checkbox-holder{
+  position: relative;
+  left: 10px;
+}
+.submit-style{
+  position: relative;
+  top: 10px;
+  border: 2px solid gray;
+ background-color: white;
+ font-family: "work sans";
+ border-radius: 5px;
+}
+.textarea-style{
+  position: relative;
+  top: 3px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-family: "work sans";
+  resize: none;
+}
+#grid{
+  display: grid;
+  background-color: #ff4e4e;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
